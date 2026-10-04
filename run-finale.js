@@ -9,7 +9,7 @@
  *   npx playwright install chromium
  *
  * Run:
- *   node run-finale.js https://jolly-road-702644.puter.site
+ *   node run-finale.js https://zealous-river-220556.puter.site
  */
 
 const { chromium } = require('playwright');
@@ -18,7 +18,7 @@ const { chromium } = require('playwright');
 const TARGET_URL =
   process.argv[2] ||
   process.env.TARGET_URL ||
-  'https://jolly-road-702644.puter.site';
+  'https://zealous-river-220556.puter.site';
 
 const BROWSER_SCRIPT = () => {
   // ============================================================================
@@ -408,7 +408,7 @@ const BROWSER_SCRIPT = () => {
         'smart-mountain-937000.puter.site': '9578779',
         'avid-mountain-909877.puter.site': '9578787',
         'jolly-road-702644.puter.site': '9578798',
-        'jolly-road-702644.puter.site': '9578806',
+        'colorful-tv-258268.puter.site': '9578806',
       };
 
       // Get the appropriate Linkvertise ID for this domain
